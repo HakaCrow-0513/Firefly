@@ -1,12 +1,12 @@
 ---
-title: "测试1"
+title: HI
 published: 2026-08-22
 updated: 2026-08-22
-description:这是文章的简短描述
+description: 对文字的一次测试
 image: ./cover.jpg
 tags: [标签]
 category: 分类
-draft: flase
+draft: false
 author: fqzlr
 ---
-会成功吗
+Hi~ o(*￣▽￣*)ブ，如果一切顺利
