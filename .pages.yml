@@ -36,7 +36,7 @@ content:
       - name: posts
         label: 📝 博客文章
         type: collection
-        path: src/content/posts
+        path: src/content/posts/blog
         format: yaml-frontmatter
         filename:
           template: "{primary}.md"
