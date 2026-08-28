@@ -43,14 +43,14 @@ export const siteConfig: SiteConfig = {
 	title: "HakaCrow的小窝",
 
 	// 站点副标题
-	subtitle: "Do you like what you see?",
+	subtitle: "关于游戏与心理学的思考",
 
 	// 站点 URL
 	site_url: "https://longmaythesunshine.xyz",
 
 	// 站点描述
 	description:
-		"这是我的第一个博客，用于记录个人的生活与学习以及分享一些有趣的内容，欢迎来到我的小窝！",
+		"这是我的第一个博客，用于记录个人的生活与学习以及分享一些有趣的内容,大概是关于游戏和心理学相关的内容吧，欢迎来到我的小窝！",
 
 	// 站点关键词
 	keywords: [
