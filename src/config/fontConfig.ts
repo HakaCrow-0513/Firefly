@@ -63,6 +63,22 @@ export const fontsList: FontDefinition[] = [
 			"monospace",
 		],
 	},
+	// ─── 方舟像素字体（Ark Pixel Font）───
+	// 手动下载字体放入 public/assets/fonts/ 后，按下方 fontConfig.selected 注释启用
+	// 下载：https://github.com/TakWolf/ark-pixel-font/releases（选 12px proportional 的 woff2）
+	{
+		name: "Ark Pixel 12px Proportional",
+		cssVariable: "--font-ark-pixel",
+		provider: "local",
+		options: {
+			variants: [
+				{
+					src: ["./public/assets/fonts/ark-pixel-12px-proportional.woff2"],
+				},
+			],
+		},
+		fallbacks: ["sans-serif"],
+	},
 	// ─── 本地字体示例 ───
 	// 使用步骤：
 	// 1. 将 TTF/OTF/WOFF2 字体文件放在 public/assets/fonts/ 目录下
@@ -89,6 +105,13 @@ export const fontConfig: FontSelectionConfig = {
 	enable: true,
 	// 当前选择的字体 CSS 变量名（对应上方 fonts 中的 cssVariable）
 	// 使用 "system" 表示系统字体（不加载任何自定义字体）
+	//
+	// 【像素风字体】方舟像素字体启用方法：
+	//   1. 从 https://github.com/TakWolf/ark-pixel-font/releases 下载
+	//      「ark-pixel-12px-proportional」的 woff2 文件；
+	//   2. 放入 public/assets/fonts/ 目录，命名为 ark-pixel-12px-proportional.woff2；
+	//   3. 将下方 selected 改为 ["--font-ark-pixel"]。
+	//   注意：像素字体需在 12px 的整数倍字号（12px / 24px）下使用才清晰。
 	selected: ["system"],
 
 	// 各区域独立字体设置（填写上方 fonts 中的 cssVariable，留空则使用全局 selected 字体）

@@ -447,11 +447,11 @@ html {
     }
 
     .dropdown-item:first-child {
-        @apply rounded-t-[calc(var(--radius-large)-0.5rem)];
+        @apply rounded-t-[2px];
     }
 
     .dropdown-item:last-child {
-        @apply rounded-b-[calc(var(--radius-large)-0.5rem)];
+        @apply rounded-b-[2px];
     }
 
     /* 移动端菜单样式 */
@@ -631,4 +631,23 @@ html {
 /* 分页信息样式 */
 .pagination-info {
   @apply text-sm text-(--text-secondary) text-center mb-2;
+}
+
+/* ===== 像素风格全局覆盖 ===== */
+
+/* Tailwind 的 rounded-full 使用 calc(infinity)，像素风统一改为 2px 小圆角 */
+.rounded-full {
+  border-radius: 2px;
+}
+
+/* 像素风离散过渡：交互元素用 steps() 逐帧切换 */
+.card-base,
+.btn-regular,
+.btn-card,
+.category-pill,
+.tag-item,
+.dropdown-item,
+.meta-icon,
+.post-list-layout-switch button {
+  transition-timing-function: steps(2, end);
 }

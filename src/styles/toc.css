@@ -106,7 +106,7 @@
 .toc-badge-dot {
 	width: 0.48rem;
 	height: 0.48rem;
-	border-radius: 999px;
+	border-radius: 2px;
 	background: color-mix(in oklab, var(--primary) 26%, var(--line-color));
 }
 

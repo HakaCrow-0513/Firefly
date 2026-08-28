@@ -160,13 +160,13 @@
     width: max-content;
     border-collapse: separate;
     border-spacing: 0;
-    border-radius: calc(var(--radius-large) - 0.5rem);
+    border-radius: 2px;
     overflow: hidden;
   }
 
   .horizontal-scroll-container {
     @apply my-4;
-    border-radius: calc(var(--radius-large) - 0.5rem);
+    border-radius: 2px;
   }
 
   .horizontal-scroll-container > table {

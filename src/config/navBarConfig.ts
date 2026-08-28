@@ -20,7 +20,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	links.push({
 		name: "文章",
 		url: "#",
-		icon: "material-symbols:article",
+		icon: "pixelarticons:article",
 		children: [
 			// 归档
 			LinkPresets.Archive,
@@ -37,7 +37,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	links.push({
 		name: "社交",
 		url: "#",
-		icon: "material-symbols:group",
+		icon: "pixelarticons:group",
 		children: [
 			// 友链
 			LinkPresets.Friends,
@@ -51,7 +51,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	links.push({
 		name: "我的",
 		url: "#",
-		icon: "material-symbols:person",
+		icon: "pixelarticons:user",
 		children: [
 			// 动态
 			LinkPresets.Dynamic,
@@ -80,7 +80,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	links.push({
 		name: "关于",
 		url: "#",
-		icon: "material-symbols:info",
+		icon: "pixelarticons:info-box",
 		children: [
 			// 打赏
 			LinkPresets.Sponsor,
@@ -94,7 +94,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	links.push({
 		name: "链接",
 		url: "#",
-		icon: "material-symbols:link",
+		icon: "pixelarticons:link",
 		// 子菜单
 		children: [
 			{
@@ -119,7 +119,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				name: "Firefly文档",
 				url: "https://docs-firefly.cuteleaf.cn",
 				external: true,
-				icon: "material-symbols:docs",
+				icon: "pixelarticons:book",
 			},
 		],
 	});
@@ -148,51 +148,51 @@ export const LinkPresets: Record<string, NavBarLink> = {
 	Home: {
 		name: "主页",
 		url: "/",
-		icon: "material-symbols:home",
+		icon: "pixelarticons:home",
 	},
 	Archive: {
 		name: "归档",
 		url: "/archive/",
-		icon: "material-symbols:archive",
+		icon: "pixelarticons:archive",
 	},
 	Categories: {
 		name: "分类",
 		url: "/categories/",
-		icon: "material-symbols:folder-open-rounded",
+		icon: "pixelarticons:folder",
 	},
 	Tags: {
 		name: "标签",
 		url: "/tags/",
-		icon: "material-symbols:tag-rounded",
+		icon: "pixelarticons:label",
 	},
 	Friends: {
 		name: "友链",
 		url: "/friends/",
-		icon: "material-symbols:link-2-rounded",
+		icon: "pixelarticons:link",
 		pageKey: "friends",
 	},
 	Guestbook: {
 		name: "留言",
 		url: "/guestbook/",
-		icon: "material-symbols:chat",
+		icon: "pixelarticons:chat",
 		pageKey: "guestbook",
 	},
 	Dynamic: {
 		name: "动态",
 		url: "/dynamic/",
-		icon: "material-symbols:forum-rounded",
+		icon: "pixelarticons:message",
 		pageKey: "dynamic",
 	},
 	Gallery: {
 		name: "相册",
 		url: "/gallery/",
-		icon: "material-symbols:photo-library",
+		icon: "pixelarticons:image",
 		pageKey: "gallery",
 	},
 	Booknav: {
 		name: "书签导航",
 		url: "/booknav/",
-		icon: "material-symbols:bookmarks",
+		icon: "pixelarticons:bookmark",
 		pageKey: "booknav",
 	},
 	Bilibili: {
@@ -204,31 +204,31 @@ export const LinkPresets: Record<string, NavBarLink> = {
 	Bangumi: {
 		name: "番组计划",
 		url: "/bangumi/",
-		icon: "material-symbols:movie",
+		icon: "pixelarticons:movie",
 		pageKey: "bangumi",
 	},
 	VNDB: {
 		name: "VNDB",
 		url: "/vndb/",
-		icon: "material-symbols:chrome-reader-mode-rounded",
+		icon: "pixelarticons:file",
 		pageKey: "vndb",
 	},
 	MAL: {
 		name: "AnimeList",
 		url: "/myanimelist/",
-		icon: "material-symbols:menu-book",
+		icon: "pixelarticons:book",
 		pageKey: "mal",
 	},
 	Sponsor: {
 		name: "打赏",
 		url: "/sponsor/",
-		icon: "material-symbols:favorite",
+		icon: "pixelarticons:heart",
 		pageKey: "sponsor",
 	},
 	About: {
 		name: "关于我",
 		url: "/about/",
-		icon: "material-symbols:person",
+		icon: "pixelarticons:user",
 	},
 };
 

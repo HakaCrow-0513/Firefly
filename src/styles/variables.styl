@@ -1,6 +1,6 @@
 /* ===== 基础变量定义 ===== */
 :root
-  --radius-large: 1rem
+  --radius-large: 2px
   --content-delay: 150ms
 
 /* ===== 主题相关变量 ===== */
@@ -28,8 +28,8 @@
   --deep-text: oklch(0.25 0.02 var(--hue))
   --title-active: oklch(0.6 0.1 var(--hue))
   
-  --line-divider: rgba(0, 0, 0, 0.08)
-  --line-color: rgba(0, 0, 0, 0.1)
+  --line-divider: rgba(0, 0, 0, 0.18)
+  --line-color: rgba(0, 0, 0, 0.2)
   --meta-divider: rgba(0, 0, 0, 0.2)
   --content-meta: rgba(0, 0, 0, 0.7)
   
@@ -105,8 +105,8 @@
   --btn-card-bg-hover: oklch(0.3 0.03 var(--hue))
   --btn-card-bg-active: oklch(0.35 0.035 var(--hue))
   
-  --line-divider: rgba(255, 255, 255, 0.08)
-  --line-color: rgba(255, 255, 255, 0.1)
+  --line-divider: rgba(255, 255, 255, 0.18)
+  --line-color: rgba(255, 255, 255, 0.2)
   --meta-divider: rgba(255, 255, 255, 0.2)
   --content-meta: rgba(255, 255, 255, 0.6)
   
@@ -214,28 +214,40 @@
 
 /* ===== 阴影变量 ===== */
 :root
-  /* 基础阴影 */
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05)
-  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1)
-  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1)
-  --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.1)
-  --shadow-2xl: 0 25px 50px rgba(0, 0, 0, 0.25)
-  
+  /* 像素风硬阴影 */
+  --shadow-sm: 2px 2px 0 rgba(0, 0, 0, 0.85)
+  --shadow-md: 3px 3px 0 rgba(0, 0, 0, 0.85)
+  --shadow-lg: 5px 5px 0 rgba(0, 0, 0, 0.9)
+  --shadow-xl: 8px 8px 0 rgba(0, 0, 0, 0.9)
+  --shadow-2xl: 12px 12px 0 rgba(0, 0, 0, 0.9)
+
   /* 特殊阴影 */
-  --shadow-navbar: 0 4px 16px rgba(0, 0, 0, 0.1)
-  --shadow-navbar-dark: 0 4px 16px rgba(0, 0, 0, 0.2)
-  --shadow-button: 0 4px 12px rgba(0, 0, 0, 0.15)
-  --shadow-button-dark: 0 4px 12px rgba(255, 255, 255, 0.1)
+  --shadow-navbar: 0 3px 0 rgba(0, 0, 0, 0.85)
+  --shadow-navbar-dark: 0 3px 0 rgba(0, 0, 0, 0.85)
+  --shadow-button: 2px 2px 0 rgba(0, 0, 0, 0.85)
+  --shadow-button-dark: 2px 2px 0 rgba(0, 0, 0, 0.85)
+
+/* 暗色主题硬阴影（像素风使用浅色硬阴影） */
+:root.dark
+  --shadow-sm: 2px 2px 0 rgba(255, 255, 255, 0.22)
+  --shadow-md: 3px 3px 0 rgba(255, 255, 255, 0.22)
+  --shadow-lg: 5px 5px 0 rgba(255, 255, 255, 0.25)
+  --shadow-xl: 8px 8px 0 rgba(255, 255, 255, 0.25)
+  --shadow-2xl: 12px 12px 0 rgba(255, 255, 255, 0.28)
+  --shadow-navbar: 0 3px 0 rgba(255, 255, 255, 0.2)
+  --shadow-navbar-dark: 0 3px 0 rgba(255, 255, 255, 0.2)
+  --shadow-button: 2px 2px 0 rgba(255, 255, 255, 0.2)
+  --shadow-button-dark: 2px 2px 0 rgba(255, 255, 255, 0.2)
 
 /* ===== 边框半径变量 ===== */
 :root
-  --radius-sm: 0.25rem     /* 4px */
-  --radius-md: 0.375rem    /* 6px */
-  --radius-lg: 0.5rem      /* 8px */
-  --radius-xl: 0.75rem     /* 12px */
-  --radius-2xl: 1rem       /* 16px */
-  --radius-3xl: 1.5rem     /* 24px */
-  --radius-full: 9999px
+  --radius-sm: 2px
+  --radius-md: 2px
+  --radius-lg: 2px
+  --radius-xl: 2px
+  --radius-2xl: 2px
+  --radius-3xl: 2px
+  --radius-full: 2px
 
 /* ===== 透明度变量 ===== */
 :root

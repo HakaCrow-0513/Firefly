@@ -157,6 +157,7 @@ export default defineConfig({
 				"simple-icons": ["*"],
 				mdi: ["*"],
 				mingcute: ["*"],
+				pixelarticons: ["*"],
 			},
 		}),
 		expressiveCode({

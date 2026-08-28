@@ -332,6 +332,7 @@ html.is-page-transitioning .banner-home-text-overlay {
         /* 图片渲染优化 */
         image-rendering: -webkit-optimize-contrast;
         image-rendering: crisp-edges;
+        image-rendering: pixelated;
         
         /* 防止图片拖拽 */
         -webkit-user-drag: none;

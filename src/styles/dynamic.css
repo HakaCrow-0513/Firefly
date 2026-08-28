@@ -419,7 +419,7 @@ dynamic-feed {
 	overflow: hidden;
 	aspect-ratio: 1;
 	border: 0;
-	border-radius: calc(var(--radius-large) - 0.25rem);
+	border-radius: 2px;
 	background: var(--btn-regular-bg);
 	cursor: pointer;
 	padding: 0;
@@ -504,7 +504,7 @@ dynamic-feed {
 	align-items: center;
 	min-height: 1.5rem;
 	padding-inline: 0.55rem;
-	border-radius: 999px;
+	border-radius: 2px;
 	background: color-mix(in srgb, var(--primary) 12%, transparent);
 	color: var(--primary);
 	font-size: 0.75rem;
@@ -533,7 +533,7 @@ dynamic-feed {
 	margin: 0 auto;
 	object-fit: contain;
 	background: rgb(0 0 0 / 88%);
-	border-radius: calc(var(--radius-large) - 0.25rem);
+	border-radius: 2px;
 }
 
 .dynamic-gallery-nav {
@@ -573,7 +573,7 @@ dynamic-feed {
 	flex: 0 0 3.75rem;
 	overflow: hidden;
 	border: 2px solid transparent;
-	border-radius: calc(var(--radius-large) - 0.35rem);
+	border-radius: 2px;
 	background: var(--btn-regular-bg);
 	opacity: 0.65;
 	padding: 0;

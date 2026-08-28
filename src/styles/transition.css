@@ -9,15 +9,15 @@
 /* Main Content Transition */
 .transition-main {
     transition: 
-        opacity 120ms cubic-bezier(0.25, 0.46, 0.45, 0.94),
-        transform 120ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        opacity 120ms steps(2, end),
+        transform 120ms steps(2, end);
 }
 
 /* Leaving Animation */
 .transition-leaving {
     transition:
-        transform 120ms cubic-bezier(0.55, 0.055, 0.675, 0.19),
-        opacity 120ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+        transform 120ms steps(2, end),
+        opacity 120ms steps(2, end);
 }
 
 /* 切页期间将过渡元素提升到合成层，避免移动端动画在主线程绘制掉帧卡顿 */
@@ -30,14 +30,14 @@ html.is-animating.is-leaving .transition-leaving {
 /* State: Changing (Swup) */
 html.is-changing .transition-main {
     transition: 
-        opacity 120ms cubic-bezier(0.25, 0.46, 0.45, 0.94),
-        transform 120ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        opacity 120ms steps(2, end),
+        transform 120ms steps(2, end);
 }
 
 html.is-leaving .transition-main {
     transition: 
-        opacity 120ms cubic-bezier(0.55, 0.055, 0.675, 0.19),
-        transform 120ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+        opacity 120ms steps(2, end),
+        transform 120ms steps(2, end);
 }
 
 /* State: Animating (Entering) */
@@ -54,7 +54,7 @@ html.is-animating.is-leaving .transition-leaving {
 
 /* Swup Fade Fallback */
 html.is-changing .transition-swup-fade {
-    transition: all 120ms ease-out;
+    transition: all 120ms steps(2, end);
 }
 
 html.is-animating .transition-swup-fade {
@@ -83,7 +83,7 @@ html.is-animating .transition-swup-fade {
 
 .onload-animation {
     opacity: 0;
-    animation: fade-in-up 120ms ease-out forwards;
+    animation: fade-in-up 120ms steps(2, end) forwards;
     will-change: transform, opacity;
 }
 
