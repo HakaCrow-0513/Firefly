@@ -24,7 +24,7 @@ const pages = resolvePageToggles({
 	// 书签导航页面开关
 	booknav: true,
 	// 哔哩哔哩追番页面开关
-	bilibili: false,
+	bilibili: true,
 	// 番组计划页面开关
 	bangumi: false,
 	// VNDB页面开关
@@ -57,9 +57,9 @@ export const siteConfig: SiteConfig = {
 		"HakaCrow",
 		"Fuwari",
 		"Astro",
-		"ACGN",
+		"Psychology",
+		"心理学",
 		"博客",
-		"技术博客",
 		"静态博客",
 	],
 
@@ -79,7 +79,7 @@ export const siteConfig: SiteConfig = {
 	// 网站Card样式配置
 	card: {
 		// 是否开启卡片边框和阴影，开启后让网站更有立体感
-		border: false,
+		border: true,
 		// 是否让卡片风格跟随主题色相
 		followTheme: false,
 	},
@@ -240,7 +240,7 @@ export const siteConfig: SiteConfig = {
 	// ── Bilibili配置 ──────────────────────────────────
 	bilibili: {
 		// 你的 Bilibili 用户 UID
-		uid: "38932988",
+		uid: "1329776473",
 	},
 
 	// ── 番组计划bangumi配置 ──────────────────────────────────
