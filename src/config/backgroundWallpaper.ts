@@ -57,17 +57,20 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "索言索语 ",
 			// 主页横幅主标题字体大小
 			titleSize: "4.5rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"Ah, hello! You don't look Hollow, far from it!",
+				"Oh, ah-hah! So, I didn't scare you?",
+				"Oh, hello. You're still keen on speaking to me?",
+				"Oh, hello there. I will stay behind, to gaze at the sun.",
+				"There's no telling how much longer, your world and mine will remain in contact.",
+				"What if I am seen as a laughing stock,as a blind fool without reason?",
+				"I'm glad to see you alive.",
+				"You've a strong arm, strong faith,and most importantly, a strong heart.",
+				"真希望有一天我也能像太阳一样巨大又充满热力……",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
