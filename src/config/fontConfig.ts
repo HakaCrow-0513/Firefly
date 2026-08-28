@@ -106,13 +106,10 @@ export const fontConfig: FontSelectionConfig = {
 	// 当前选择的字体 CSS 变量名（对应上方 fonts 中的 cssVariable）
 	// 使用 "system" 表示系统字体（不加载任何自定义字体）
 	//
-	// 【像素风字体】方舟像素字体启用方法：
-	//   1. 从 https://github.com/TakWolf/ark-pixel-font/releases 下载
-	//      「ark-pixel-12px-proportional」的 woff2 文件；
-	//   2. 放入 public/assets/fonts/ 目录，命名为 ark-pixel-12px-proportional.woff2；
-	//   3. 将下方 selected 改为 ["--font-ark-pixel"]。
+	// 【像素风字体】方舟像素字体已启用（Ark Pixel 12px Proportional，zh_cn 版本）。
+	//   字体文件：public/assets/fonts/ark-pixel-12px-proportional.woff2
 	//   注意：像素字体需在 12px 的整数倍字号（12px / 24px）下使用才清晰。
-	selected: ["system"],
+	selected: ["--font-ark-pixel"],
 
 	// 各区域独立字体设置（填写上方 fonts 中的 cssVariable，留空则使用全局 selected 字体）
 	// 例如：bannerTitleFont: "--font-inter", 表示主页横幅主标题使用 Inter 字体
