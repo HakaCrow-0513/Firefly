@@ -6,7 +6,7 @@ description: 对文字的一次测试
 image: ./cover.jpg
 tags: [标签]
 category: 分类
-draft: false
+draft: true
 author: fqzlr
 ---
 Hi~ o(*￣▽￣*)ブ，如果一切顺利
