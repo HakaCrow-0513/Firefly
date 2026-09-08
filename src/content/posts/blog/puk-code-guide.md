@@ -3,7 +3,7 @@ title: 手机SIM卡被锁？PUK码查询攻略（移动/联通）
 published: 2026-09-09
 updated: 2026-09-09
 description: 介绍了除了尝试默认PIN码外，性价比最高的PUK码查询方式，即在工作时间拨打人工客服（8：00-22：00），并补充其他可以尝试的查询方式。
-image: ./cover.jpg
+image: "https://tu.longmaythesunshine.xyz/file/blog/pic/1788890875423_地铁老人手机.jpg"
 tags:
   - 生活技巧
   - PIN码
