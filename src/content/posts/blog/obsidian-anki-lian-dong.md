@@ -3,6 +3,7 @@ title: Obsidian × Anki ：从插件安装到自定义模板设置
 published: 2026-09-10
 updated: 2026-09-10
 description: 面向大陆用户的 Obsidian与Anki联动教程 ：大陆装插件的优化路径、Flashcards 与 Obsidian_to_Anki 的选型对比、Anki 自定义模板的正确用法。
+image: "https://tu.longmaythesunshine.xyz/file/blog/pic/1788982188515_你只是还年轻，在学习如何生活.jpg"
 draft: false
 tags:
   - 效率工具
