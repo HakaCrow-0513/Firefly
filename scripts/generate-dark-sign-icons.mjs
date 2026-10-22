@@ -1,5 +1,5 @@
-import sharp from "sharp";
 import { mkdir, writeFile } from "node:fs/promises";
+import sharp from "sharp";
 
 // 源图片（黑暗之环）
 const SRC = "C:/Users/sy479/Desktop/其他/黑魂1黑暗之环.webp";
